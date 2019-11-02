@@ -62,6 +62,20 @@ img, video, .element
     color: transparent;
 }
 
+.scroll-down
+{
+    font-size: 18px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 500px;
+    left: 45%;
+    background: linear-gradient(0deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 #asia-walking
 {
     height: 56px;
@@ -125,7 +139,7 @@ img, video, .element
 #beach-water-2
 {
     height: 483.328px;
-    width: 1450px;
+    width: 1500px;
     top: 4200px;
     left: 0%;
 }
@@ -313,10 +327,10 @@ img, video, .element
 
 #rain-car-long
 {
-    height: 117.594px;
-    width: 1400px;
+    height: auto;
+    width: 1500px;
     top: 6800px;
-    left: 2%;
+    left: 0%;
 }
 
 .from-a-rainy
