@@ -978,6 +978,248 @@ img, video, .element
         left: 10%;
     }
 }
+
+@media (max-width: 960px)
+{
+    .wrapper
+    {
+    }
+
+        .part
+    {
+        top: 170px;
+        left: 25%;
+    }
+
+    .one
+    {
+        top: 110px;
+        left: 28%;
+    }
+
+    #asia-walking
+    {
+        left: 30%;
+    }
+
+    #asia-walking-2
+    {
+        left: 46%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 960px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 34%;
+    }
+
+    .allowed-to-be
+    {
+        left: 34%;
+    }
+
+    #moonscape-full
+    {
+        left: 15%;
+    }
+
+    #beach-water-1
+    {
+        left: 20%;
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 960px;
+        left: 0%;
+    }
+
+    
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 300px;
+        left: 20%;
+    }
+
+    #moonscape-cropped
+    {
+
+        left: 52%;
+    }
+
+    .a-soft-noise
+    {
+        left: 5%;
+    }
+
+    .in-the-distance
+    {
+        left: 38%;
+    }
+
+    .with-no-source
+    {
+        left: 24%;
+    }
+
+    #rain-car-1
+    {
+        left: 18%;
+    }
+    #rain-car-2
+    {
+        left: 75%;
+    }
+
+    .the-face-of
+    {
+        left: 7%;
+    }
+
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+
+    #papers-flying
+    {
+        height: auto;
+        width: 700px;
+        left: 18%;
+    }
+
+    .a-song
+    {
+        left: 75%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 150px;
+    }
+
+    .with-no-words
+    {
+       left: 88%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 600px;
+        left: 15%;
+    }
+
+    .a-gesture
+    {
+        left: 1%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 350px;
+        left: 63%;
+    }
+
+    .wo-explanation
+    {
+        left: 80%;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 400px;
+        left: 12%;
+    }
+
+    #rice-krisp-eat
+    {
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 300px;
+    }
+
+    .on-a-sunday
+    {
+        left: 55%;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 250px;
+    }
+    .is-my-work-3
+    {
+        font-size: 24px;
+        left: 1.5%;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 500px;
+    }
+    .vapid
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .and-selfish
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .navel
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .and-free
+    {
+        left: 70%;
+    }
+
+    #crows
+    {
+        left: 15%;
+        height: auto;
+        width: 700px;
+    }
+
+    .name
+    {
+        font-size: 14px;
+        left: 37%;
+    }
+}
+
 @media (max-width: 823px)
 {
     .wrapper
