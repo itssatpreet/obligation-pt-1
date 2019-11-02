@@ -12,3 +12,5 @@ $(function(){
 		$('body').addClass('autoplay-disabled');
 	});
 });
+
+window.onorientationchange = function() { window.location.reload(); };
