@@ -1,0 +1,2466 @@
+html, body
+{
+    background: #f5f4e7;
+    margin: 0;
+    padding: 0;
+}
+
+.warning-message
+{
+    display: none;
+    background: #f5f4e7;
+    font-size: 18px;
+    font-style: italic;
+    font-family: Didot, Georgia, serif;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.warning-message-text
+{
+    margin-top: 10%;
+}
+
+@media (orientation: portrait)
+{
+    body
+    {
+        height: 100%;
+        overflow: hidden;
+    }    
+
+    #landscape-warning-message
+    {
+        display: block;
+    }
+}
+
+body.autoplay-disabled
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+body.autoplay-disabled #low-power-warning-message
+{
+    display: block;
+}
+
+.wrapper
+{
+    background: #f5f4e7;
+    height: 13500px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 1500px;
+}
+
+img, video, .element
+{
+    position: absolute;
+}
+
+.part
+{
+    font-size: 14px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 165px;
+    left: 18%;
+    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.one
+{
+    font-size: 100px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 100px;
+    left: 20%;
+    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.on-the-topic
+{
+    font-size: 16px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 138px;
+    left: 2%;
+    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.scroll-down
+{
+    font-size: 18px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 500px;
+    left: 45%;
+    background: linear-gradient(0deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#asia-walking
+{
+    height: 56px;
+    width: 100px;
+    top: 2200px;
+    left: 40%;
+}
+
+#asia-walking-2
+{
+    height: 224px;
+    width: 400px;
+    top: 2200px;
+    left: 50%;
+}
+
+#beach-shore
+{
+    height: 674.875px;
+    width: 1200px;
+    top: 1800px;
+    left: 1%;
+}
+
+.is-my-work
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 1400px;
+    left: 24%;
+    background: linear-gradient(173deg, rgba(80,119,194,0.804096638655462) 0%, rgba(118,178,212,0.6407738095238095) 7%, rgba(208,233,245,0.452170868347342) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.allowed-to-be
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 1400px;
+    left: 24%;
+    background: linear-gradient(173deg, rgba(80,119,194,0.804096638655462) 0%, rgba(118,178,212,0.6407738095238095) 7%, rgba(208,233,245,0.452170868347342) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#beach-water-1
+{
+    height: 338px;
+    width: 600px;
+    top: 4600px;
+    left: 30%;
+}
+
+#beach-water-2
+{
+    height: 483.328px;
+    width: 1500px;
+    top: 4200px;
+    left: 0%;
+}
+
+.a-trailing-light
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 1600px;
+    left: 55%;
+    background: linear-gradient(173deg, rgba(39,66,117,.6304096638655462) 10%, rgba(118,178,212,0.787009803921569) 40%, rgba(208,203,245,0.91052170868347342) 80%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fading-into
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 2200px;
+    left: 71%;
+    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.8587009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.dark
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 2900px;
+    left: 90%;
+    background: linear-gradient(173deg, rgba(39,66,117,0.76234243697479) 0%, rgba(35,78,103,0.87009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#moonscape-full
+{
+    height: 61.594px;
+    width: 110px;
+    top: 5200px;
+    left: 20%;
+}
+
+#moonscape-full-again
+{
+    width: 450px;
+    top: 6400px;
+    left: 30%;
+}
+
+#moonscape-cropped
+{
+    height: 769.641px;
+    width: 450px;
+    top: 5200px;
+    left: 65%;
+}
+
+.a-soft-noise
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 7000px;
+    left: 15%;
+    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.in-the-distance
+{
+    font-size: 16px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 3600px;
+    left: 38%;
+    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.with-no-source
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 5400px;
+    left: 28%;
+    background: linear-gradient(0deg, rgba(52,47,48,0.7051995798319328) 6%, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.7) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#leg-in-car
+{
+    height: 888px;
+    width: 500px;
+    top: 7800px;
+    left: 25%;
+}
+
+#self-car
+{
+    height: 56px;
+    width: 100px;
+    top: 7400px;
+    left: 9%;
+}
+
+#rain-car-1
+{
+    height: 112px;
+    width: 200px;
+    top: 8600px;
+    left: 8%;
+}
+
+#rain-car-2
+{
+    height: 140px;
+    width: 250px;
+    top: 3800px;
+    left: 60%;
+}
+
+.the-face-of
+{
+    font-size: 35px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 7520px;
+    left: 8%;
+    background: linear-gradient(173deg, rgba(251,221,224,0.9724264705882353) 6%, rgba(251,231,188,0.9556197478991597) 19%, rgba(255,207,180,0.8491771708683473) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.a-familiar
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 6400px;
+    left: 39.5%;
+    background: linear-gradient(173deg, rgba(233,215,218,0.9724264705882353) 6%, rgba(228,221,203,0.9556197478991597) 43%, rgba(204,189,160,0.969625350140056) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.briefly
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 12500px;
+    left: 90%;
+    background: linear-gradient(173deg, rgba(206, 212, 140, 0.972) 0%, rgba(215, 216, 134, 0.956) 5%, rgba(237,177,56,0.8491771708683473) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#rain-car-long
+{
+    height: auto;
+    width: 1500px;
+    top: 6800px;
+    left: 0%;
+}
+
+.from-a-rainy
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 7490px;
+    left: 5%;
+    background: linear-gradient(173deg, rgba(221,246,251,0.224264705882353) 6%, rgba(149,167,173,0.4556197478991597) 31%, rgba(100,152,161,0.8491771708683473) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.in-the-evening
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 5900px;
+    left: 80%;
+    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#dark-evening
+{
+    height: 102px;
+    width: 150px;
+    top: 7900px;
+    left: 63%;
+}
+
+#papers-flying
+{
+    height: 450px;
+    width: 800px;
+    top: 6300px;
+    left: 20%;
+}
+
+.is-my-work-2
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 7800px;
+    left: 5%;
+    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.a-song
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 6800px;
+    left: 60%;
+    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.with-no-words
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 8800px;
+    left: 75%;
+    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#building-veiled
+{
+    height: 344px;
+    width: 200px;
+    top: 5350px;
+    left: 6.5%;
+}
+
+#trees-drooping
+{
+    height: 336px;
+    width: 600px;
+    top: 8550px;
+    left: 25%;
+}
+
+#falling-sculpture
+{
+    height: 230px;
+    width: 410px;
+    top: 6850px;
+    left: 55%;
+}
+
+.a-gesture
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 9220px;
+    left: 15%;
+    background: linear-gradient(173deg, rgba(191,199,189,0.724264705882353) 30%, rgba(97,156,84,0.9556197478991597) 100%); 
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.wo-explanation
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 8300px;
+    left: 78%;
+    background: linear-gradient(0deg, rgba(87,94,96,0.8533788515406162) 6%, rgba(165,207,206,0.9556197478991597) 51%, rgba(150,178,204,0.4556197478991597) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#pvd-ktchn-windows
+{
+    height: 168px;
+    width: 300px;
+    top: 7150px;
+    left: 75%;
+}
+
+
+#rice-krisp-serve
+{
+    height: 304px;
+    width: 350px;
+    top: 7550px;
+    left: 15%;
+}
+
+#rice-krisp-eat
+{
+    height: 252px;
+    width: 200px;
+    top: 7450px;
+    left: 40%;
+}
+
+.a-stack-of
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 10500px;
+    left: 8%;
+    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.on-a-sunday
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 11700px;
+    left: 40%;
+    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.just-because
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 9200px;
+    left: 80%;
+    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.is-my-work-3
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 7950px;
+    left: 3%;
+    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(148,187,233,1) 55%, rgba(124,209,198,0.4458158263305322) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#self-thesis
+{
+    height: 978.641px;
+    width: 550px;
+    top: 8650px;
+    left: 30%;
+}
+
+.vapid
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 10300px;
+    left: 70%;
+    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(216,236,235,1) 0%, rgba(162,186,214,1) 55%, rgba(141,172,168,0.4458158263305322) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.and-selfish
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 10790px;
+    left: 70%;
+    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(127,170,219,1) 55%, rgba(118,168,162,0.4458158263305322) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.navel
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 11280px;
+    left: 70%;
+    background: linear-gradient(90deg, rgba(153,232,227,1) 0%, rgba(93,147,209,1) 46%, rgba(139,201,194,0.4458158263305322) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.and-free
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 5200px;
+    left: 75%;
+    background: linear-gradient(0deg, rgba(215,255,252,.9) 0%, rgba(23,109,138,.4) 49%, rgba(111,215,203,0.1458158263305322) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.obligated
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 12900px;
+    left: 10%;
+    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.why-should
+{
+    font-size: 30px;
+    font-family: Didot, Georgia, serif;
+    font-style: italic;
+    top: 14800px;
+    left: 20%;
+    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#crows
+{
+    height: 338px;
+    width: 600px;
+    top: 13600px;
+    left: 30%;
+}
+
+.name
+{
+    font-size: 16px;
+    font-family: Didot, Georgia, serif;
+    top: 15900px;
+    left: 40%;
+    background: linear-gradient(0deg, rgba(51,140,134,1) 0%, rgba(23,109,138,1) 49%, rgba(28,117,107,0.4458158263305322) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@media (max-width: 1280px)
+{
+    
+    .wrapper
+    {
+
+    }
+
+    .part
+    {
+        top: 170px;
+        left: 21%;
+    }
+
+    .one
+    {
+        top: 110px;
+        left: 23%;
+    }
+
+    .is-my-work
+    {
+        left: 30%;
+    }
+
+    .allowed-to-be
+    {
+        left: 30%;
+    }
+
+    .fading-into
+    {
+        left: 78%;
+    }
+    
+    #moonscape-full-again
+    {
+        width: 400px;
+    }
+
+    #moonscape-cropped
+    {
+
+        left: 62%;
+    }
+
+    #rain-car-2
+    {
+        left: 72%;
+    }
+
+    .the-face-of
+    {
+        left: 7%;
+    }
+
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+
+    #papers-flying
+    {
+        height: auto;
+        width: 900px;
+        left: 10%;
+    }
+
+    .a-song
+    {
+        top: 6820px;
+        left: 70%;
+    }
+
+    .with-no-words
+    {
+       left: 81%;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 400px;
+        left: 12%;
+    }
+
+    #rice-krisp-eat
+    {
+        left: 45%;
+    }
+
+
+    .on-a-sunday
+    {
+        left: 45%;
+    }
+
+    .vapid
+    {
+        left: 75%;
+    }
+
+    .and-selfish
+    {
+        left: 75%;
+    }
+
+    .navel
+    {
+        left: 75%;
+    }
+
+    .and-free
+    {
+        left: 80%;
+    }
+
+    #crows
+    {
+        left: 25%;
+    }
+}
+
+
+@media (max-width: 1050px)
+{
+    .wrapper
+    {
+    }
+
+        .part
+    {
+        top: 170px;
+        left: 25%;
+    }
+
+    .one
+    {
+        top: 110px;
+        left: 28%;
+    }
+
+    #asia-walking
+    {
+        left: 40%;
+    }
+
+    #asia-walking-2
+    {
+        left: 60%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 1050px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 34%;
+    }
+
+    .allowed-to-be
+    {
+        left: 34%;
+    }
+
+    #beach-water-2
+    {
+        height: auto;
+        width: 1050px;
+        left: 0%;
+    }
+
+    
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 350px;
+        left: 20%;
+    }
+
+    #moonscape-cropped
+    {
+
+        left: 55%;
+    }
+
+    .a-soft-noise
+    {
+        left: 5%;
+    }
+
+    .in-the-distance
+    {
+        left: 38%;
+    }
+
+    .with-no-source
+    {
+        left: 24%;
+    }
+
+    #rain-car-1
+    {
+        left: 18%;
+    }
+    #rain-car-2
+    {
+        left: 75%;
+    }
+
+    .the-face-of
+    {
+        left: 7%;
+    }
+
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+
+    #papers-flying
+    {
+        height: auto;
+        width: 700px;
+        left: 18%;
+    }
+
+    .a-song
+    {
+        left: 75%;
+    }
+
+    .building-veiled
+    {
+        height: auto;
+        width: 50px;
+    }
+
+    .with-no-words
+    {
+       left: 81%;
+    }
+
+    .a-gesture
+    {
+        left: 14%;
+    }
+
+    .wo-explanation
+    {
+        left: 85%;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 400px;
+        left: 12%;
+    }
+
+    #rice-krisp-eat
+    {
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 300px;
+    }
+
+    .on-a-sunday
+    {
+        left: 52%;
+    }
+
+    .is-my-work-3
+    {
+        font-size: 28px;
+        left: 1.5%;
+    }
+
+    .vapid
+    {
+        left: 85%;
+    }
+
+    .and-selfish
+    {
+        left: 85%;
+    }
+
+    .navel
+    {
+        left: 85%;
+    }
+
+    .and-free
+    {
+        left: 70%;
+    }
+
+    #crows
+    {
+        left: 10%;
+    }
+}
+
+@media (max-width: 960px)
+{
+    .wrapper
+    {
+    }
+
+        .part
+    {
+        top: 170px;
+        left: 25%;
+    }
+
+    .one
+    {
+        top: 110px;
+        left: 28%;
+    }
+
+    #asia-walking
+    {
+        left: 30%;
+    }
+
+    #asia-walking-2
+    {
+        left: 46%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 960px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 34%;
+    }
+
+    .allowed-to-be
+    {
+        left: 34%;
+    }
+
+    #moonscape-full
+    {
+        left: 15%;
+    }
+
+    #beach-water-1
+    {
+        left: 20%;
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 960px;
+        left: 0%;
+    }
+
+    
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 300px;
+        left: 20%;
+    }
+
+    #moonscape-cropped
+    {
+
+        left: 52%;
+    }
+
+    .a-soft-noise
+    {
+        left: 5%;
+    }
+
+    .in-the-distance
+    {
+        left: 38%;
+    }
+
+    .with-no-source
+    {
+        left: 24%;
+    }
+
+    #rain-car-1
+    {
+        left: 18%;
+    }
+    #rain-car-2
+    {
+        left: 75%;
+    }
+
+    .the-face-of
+    {
+        left: 7%;
+    }
+
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+
+    #papers-flying
+    {
+        height: auto;
+        width: 700px;
+        left: 18%;
+    }
+
+    .a-song
+    {
+        left: 75%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 150px;
+    }
+
+    .with-no-words
+    {
+       left: 88%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 600px;
+        left: 15%;
+    }
+
+    .a-gesture
+    {
+        left: 1%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 350px;
+        left: 63%;
+    }
+
+    .wo-explanation
+    {
+        left: 80%;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 400px;
+        left: 12%;
+    }
+
+    #rice-krisp-eat
+    {
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 300px;
+    }
+
+    .on-a-sunday
+    {
+        left: 55%;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 250px;
+    }
+    .is-my-work-3
+    {
+        font-size: 24px;
+        left: 1.5%;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 500px;
+    }
+    .vapid
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .and-selfish
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .navel
+    {
+        font-size: 25px;
+        left: 85%;
+    }
+
+    .and-free
+    {
+        left: 70%;
+    }
+
+    #crows
+    {
+        left: 15%;
+        height: auto;
+        width: 700px;
+    }
+
+    .name
+    {
+        font-size: 14px;
+        left: 37%;
+    }
+}
+
+@media (max-width: 823px)
+{
+    .wrapper
+    {
+        max-height: 13350px;
+    }
+
+    .element
+    {
+        font-size: 22px;
+    }
+
+    .part
+    {
+        top: 70px;
+        left: 28%;
+        font-size: 10px;
+    }
+
+    .one
+    {
+        top: 20px;
+        left: 30%;
+        font-size: 80px;
+    }
+
+    .on-the-topic
+    {
+        top: 50px;
+        font-size: 13px;
+    }
+
+    #asia-walking
+    {
+        height: auto;
+        width: 100px;
+        left: 20%;
+
+    }
+
+    #asia-walking-2
+    {
+        height: auto;
+        width: 300px;
+        left: 56%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 812px;
+        left: 0%;
+        top: 1200px;
+    }
+    
+    .is-my-work
+    {
+        left: 42%;
+
+    }
+    
+    .allowed-to-be
+    {
+        left: 42%;
+
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 812px;
+        left: 0%;
+        top: 4300px;
+    }
+
+    #beach-water-1
+    {
+        height: auto;
+        width: 400px;
+        left: 20%;
+    }
+
+    #moonscape-full
+    {
+        height: auto;
+        width: 80px;
+        left: 5%;
+    }
+
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 200px;
+        left: 18%;
+    }
+
+    #moonscape-cropped
+    {
+        width: 300px;
+        height: auto;
+        left: 52%;
+    }
+
+    .a-soft-noise
+    {
+        left: 1%;
+    }
+
+    .in-the-distance
+    {
+        font-size: 14px;
+        left: 35%;
+        top: 3400px;
+    }
+
+    .with-no-source
+    {
+        left: 30%;
+    }
+
+    #rain-car-1
+    {
+        left: 0%;
+    }
+
+    #leg-in-car
+    {
+        height: auto;
+        width: 400px;
+
+    }
+    #rain-car-2
+    {
+        height: auto;
+        width: 140px;
+        left: 70%;
+        top: 3590px;
+    }
+
+    #self-car
+    {
+        height: auto;
+        width: 80px;
+        top: 7065px;
+    }
+    .the-face-of
+    {
+        left: 10%;
+        top: 7200px;
+    }
+
+    .a-familiar
+    {
+        left: 36%;
+        top: 6100px;
+    }
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7560px;
+    }
+
+    #dark-evening
+    {
+        left: 52%;
+    }
+
+    #papers-flying
+    {
+        height: auto;
+        width: 600px;
+        left: 15%;
+    }
+
+    .a-song
+    {
+        left: 80%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 100px;
+        left: 4%;
+    }
+
+    .with-no-words
+    {
+       left: 80%;
+       top: 9000px;
+    }
+
+    .a-gesture
+    {
+        left: 1%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 450px;
+        left: 15%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 200px;
+        left: 65%;
+    }
+
+    .wo-explanation
+    {
+        left: 70%;
+        top: 8600px;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 350px;
+        left: 5%;
+    }
+
+    #rice-krisp-eat
+    {
+        height: auto;
+        width: 150px;
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 200px;
+    }
+
+    .on-a-sunday
+    {
+        left: 65%;
+    }
+    .just-because
+    {
+        top: 9400px;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 200px;
+        left: 75%;
+    }
+    .is-my-work-3
+    {
+        left: 1.5%;
+        width: 150px;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 400px;
+        left: 21%;
+    }
+
+    .vapid
+    {
+        left: 83%;
+    }
+
+    .and-selfish
+    {
+        left: 83%;
+    }
+
+    .navel
+    {
+        left: 83%;
+    }
+
+    .and-free
+    {
+        left: 75%;
+    }
+
+    #crows
+    {
+        height: auto;
+        width: 650px;
+        left: 10%;
+    }
+
+    .name
+    {
+        font-size: 11px;
+        left: 40%;
+    }
+
+}
+@media (max-width: 768px)
+{
+    .wrapper
+    {
+    }
+
+    .element
+    {
+        font-size: 24px;
+    }
+
+    .part
+    {
+        top: 170px;
+        left: 32%;
+        font-size: 14px;
+    }
+
+    .one
+    {
+        top: 110px;
+        left: 35%;
+        font-size: 100px;
+    }
+
+    .on-the-topic
+    {
+        font-size: 16px;
+    }
+
+    #asia-walking
+    {
+        left: 30%;
+    }
+
+    #asia-walking-2
+    {
+        left: 46%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 768px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 42%;
+
+    }
+    
+    .allowed-to-be
+    {
+        left: 42%;
+
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 768px;
+        left: 0%;
+    }
+
+    #beach-water-1
+    {
+        height: auto;
+        width: 500px;
+        left: 20%;
+    }
+
+    #moonscape-full
+    {
+        left: 5%;
+    }
+
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 300px;
+        left: 15%;
+    }
+
+    #moonscape-cropped
+    {
+        width: 350px;
+        height: auto;
+        left: 55%;
+    }
+
+    .a-soft-noise
+    {
+        left: 1%;
+    }
+
+    .in-the-distance
+    {
+        font-size: 14px;
+        left: 35%;
+    }
+
+    .with-no-source
+    {
+        left: 30%;
+    }
+
+    #rain-car-1
+    {
+        left: 5%;
+    }
+
+    #leg-in-car
+    {
+        height: auto;
+        width: 400px;
+
+    }
+    #rain-car-2
+    {
+        height: auto;
+        width: 180px;
+        left: 70%;
+    }
+
+    .the-face-of
+    {
+        left: 10%;
+    }
+
+    .a-familiar
+    {
+        left: 36%;
+    }
+
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+    #dark-evening
+    {
+        left: 58%;
+    }
+
+    #papers-flying
+    {
+        height: auto;
+        width: 600px;
+        left: 12%;
+    }
+
+    .a-song
+    {
+        left: 80%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 150px;
+        left: 4%;
+    }
+
+    .with-no-words
+    {
+       left: 87%;
+    }
+
+    .a-gesture
+    {
+        left: 8%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 530px;
+        left: 21%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 250px;
+        left: 67%;
+    }
+
+    .wo-explanation
+    {
+        left: 70%;
+        top: 8400px;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 350px;
+        left: 12%;
+    }
+
+    #rice-krisp-eat
+    {
+        height: auto;
+        width: 180px;
+        left: 50%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 200px;
+    }
+
+    .on-a-sunday
+    {
+        left: 59%;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 200px;
+        left: 75%;
+    }
+    .is-my-work-3
+    {
+        font-size: 22px;
+        left: 1.5%;
+        width: 150px;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 400px;
+        left: 27%;
+    }
+
+    .vapid
+    {
+        left: 85%;
+    }
+
+    .and-selfish
+    {
+        left: 85%;
+    }
+
+    .navel
+    {
+        left: 85%;
+    }
+
+    .and-free
+    {
+        left: 70%;
+    }
+
+    #crows
+    {
+        left: 10%;
+    }
+
+    .name
+    {
+        font-size: 12px;
+        left: 35%;
+    }
+
+@media (max-width: 667px)
+{
+    .wrapper
+    {
+    }
+
+    .element
+    {
+        font-size: 18px;
+    }
+
+    .part
+    {
+
+        left: 33%;
+        font-size: 10px;
+        top: 50px;
+    }
+
+    .one
+    {
+        left: 36%;
+        font-size: 80px;
+        top: 5px;
+    }
+
+    .on-the-topic
+    {
+        font-size: 13px;
+        top: 35px;
+    }
+
+    #asia-walking
+    {
+        height: auto;
+        width: 75px;
+        left: 28%;
+    }
+
+    #asia-walking-2
+    {
+        height: auto;
+        width: 300px;
+        left: 46%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 667px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 42%;
+
+    }
+    
+    .allowed-to-be
+    {
+        left: 42%;
+
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 600px;
+        left: 0%;
+        top: 4100px;
+    }
+
+    #beach-water-1
+    {
+        height: auto;
+        width: 400px;
+        left: 20%;
+    }
+
+    .a-trailing-light
+    {
+        top: 1450px;
+    }
+
+    #moonscape-full
+    {
+        height: auto;
+        width: 80px;
+        left: 5%;
+    }
+
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 200px;
+        left: 18%;
+    }
+
+    #moonscape-cropped
+    {
+        width: 300px;
+        height: auto;
+        left: 52%;
+    }
+
+    .a-soft-noise
+    {
+        left: 1%;
+    }
+
+    .in-the-distance
+    {
+        font-size: 14px;
+        left: 35%;
+    }
+
+    .with-no-source
+    {
+        left: 30%;
+    }
+
+    #rain-car-1
+    {
+        left: 0%;
+    }
+
+    #leg-in-car
+    {
+        height: auto;
+        width: 400px;
+
+    }
+    #rain-car-2
+    {
+        height: auto;
+        width: 140px;
+        left: 70%;
+    }
+
+    #self-car
+    {
+        height: auto;
+        width: 80px;
+    }
+    .the-face-of
+    {
+        left: 10%;
+    }
+
+    .a-familiar
+    {
+        left: 36%;
+    }
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+    #dark-evening
+    {
+        left: 52%;
+    }
+
+    #papers-flying
+    {
+        height: auto;
+        width: 500px;
+        left: 12%;
+    }
+
+    .a-song
+    {
+        left: 80%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 100px;
+        left: 4%;
+    }
+
+    .with-no-words
+    {
+       left: 80%;
+       top: 9000px;
+    }
+
+    .a-gesture
+    {
+        left: 1%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 450px;
+        left: 15%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 200px;
+        left: 65%;
+    }
+
+    .wo-explanation
+    {
+        left: 70%;
+        top: 8500px;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 350px;
+        left: 5%;
+    }
+
+    #rice-krisp-eat
+    {
+        height: auto;
+        width: 150px;
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 200px;
+    }
+
+    .on-a-sunday
+    {
+        left: 68%;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 160px;
+        left: 75%;
+    }
+    .is-my-work-3
+    {
+        left: 1.5%;
+        width: 150px;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 340px;
+        left: 28%;
+    }
+
+    .vapid
+    {
+        left: 83%;
+    }
+
+    .and-selfish
+    {
+        left: 83%;
+    }
+
+    .navel
+    {
+        left: 83%;
+    }
+
+    .and-free
+    {
+        left: 75%;
+    }
+
+    #crows
+    {
+        height: auto;
+        width: 525px;
+        left: 10%;
+    }
+
+    .name
+    {
+        font-size: 11px;
+        left: 35%;
+    }
+
+}
+
+}
+
+@media (max-width: 600px)
+{
+    .wrapper
+    {
+    }
+
+    .element
+    {
+        font-size: 20px;
+    }
+
+    .part
+    {
+        top: 170px;
+        left: 33%;
+        font-size: 10px;
+    }
+
+    .one
+    {
+        top: 120px;
+        left: 36%;
+        font-size: 80px;
+    }
+
+    .on-the-topic
+    {
+        font-size: 13px;
+    }
+
+    #asia-walking
+    {
+        height: auto;
+        width: 75px;
+        left: 28%;
+    }
+
+    #asia-walking-2
+    {
+        height: auto;
+        width: 300px;
+        left: 46%;
+    }
+
+    #beach-shore
+    {
+        height: auto;
+        width: 600px;
+        left: 0%;
+    }
+    
+    .is-my-work
+    {
+        left: 42%;
+
+    }
+    
+    .allowed-to-be
+    {
+        left: 42%;
+
+    }
+    #beach-water-2
+    {
+        height: auto;
+        width: 600px;
+        left: 0%;
+        top: 4100px;
+    }
+
+    #beach-water-1
+    {
+        height: auto;
+        width: 400px;
+        left: 20%;
+    }
+
+    #moonscape-full
+    {
+        height: auto;
+        width: 80px;
+        left: 5%;
+    }
+
+    #moonscape-full-again
+    {
+        height: auto;
+        width: 200px;
+        left: 18%;
+    }
+
+    #moonscape-cropped
+    {
+        width: 300px;
+        height: auto;
+        left: 52%;
+    }
+
+    .a-soft-noise
+    {
+        left: 1%;
+    }
+
+    .in-the-distance
+    {
+        font-size: 14px;
+        left: 35%;
+    }
+
+    .with-no-source
+    {
+        left: 30%;
+    }
+
+    #rain-car-1
+    {
+        left: 0%;
+    }
+
+    #leg-in-car
+    {
+        height: auto;
+        width: 400px;
+
+    }
+    #rain-car-2
+    {
+        height: auto;
+        width: 140px;
+        left: 70%;
+    }
+
+    #self-car
+    {
+        height: auto;
+        width: 80px;
+    }
+    .the-face-of
+    {
+        left: 10%;
+    }
+
+    .a-familiar
+    {
+        left: 36%;
+    }
+
+    #rain-car-long
+    {
+        height: auto;
+        width: 1280px;
+        left: 0%;
+    }
+
+    .from-a-rainy
+    {
+        top: 7360px;
+    }
+
+    #dark-evening
+    {
+        left: 52%;
+    }
+
+    #papers-flying
+    {
+        height: auto;
+        width: 500px;
+        left: 12%;
+    }
+
+    .a-song
+    {
+        left: 80%;
+    }
+
+    #building-veiled
+    {
+        height: auto;
+        width: 100px;
+        left: 4%;
+    }
+
+    .with-no-words
+    {
+       left: 80%;
+       top: 9000px;
+    }
+
+    .a-gesture
+    {
+        left: 1%;
+    }
+
+    #trees-drooping
+    {
+        height: auto;
+        width: 450px;
+        left: 15%;
+    }
+
+    #falling-sculpture
+    {
+        height: auto;
+        width: 200px;
+        left: 65%;
+    }
+
+    .wo-explanation
+    {
+        left: 70%;
+        top: 8400px;
+    }
+
+    #rice-krisp-serve
+    {
+        height: auto;
+        width: 350px;
+        left: 5%;
+    }
+
+    #rice-krisp-eat
+    {
+        height: auto;
+        width: 150px;
+        left: 45%;
+    }
+
+    .a-stack-of
+    {
+        left: 5%;
+        width: 200px;
+    }
+
+    .on-a-sunday
+    {
+        left: 65%;
+    }
+
+    #pvd-ktchn-windows
+    {
+        height: auto;
+        width: 160px;
+        left: 75%;
+    }
+    .is-my-work-3
+    {
+        left: 1.5%;
+        width: 150px;
+    }
+
+    #self-thesis
+    {
+        height: auto;
+        width: 360px;
+        left: 21%;
+    }
+
+    .vapid
+    {
+        left: 83%;
+    }
+
+    .and-selfish
+    {
+        left: 83%;
+    }
+
+    .navel
+    {
+        left: 83%;
+    }
+
+    .and-free
+    {
+        left: 70%;
+    }
+
+    #crows
+    {
+        height: auto;
+        width: 500px;
+        left: 10%;
+    }
+
+    .name
+    {
+        font-size: 11px;
+        left: 32%;
+    }
+
+}
+
+}
+
+
+
+*/
