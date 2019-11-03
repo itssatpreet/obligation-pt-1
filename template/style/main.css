@@ -1,10 +1,12 @@
 html, body
 {
     background: #f5f4e7;
+    font-family: Didot, Georgia, serif;
     margin: 0;
     padding: 0;
 }
 
+/*
 .warning-message
 {
     display: none;
@@ -50,10 +52,10 @@ body.autoplay-disabled #low-power-warning-message
 {
     display: block;
 }
+*/
 
 .wrapper
 {
-    background: #f5f4e7;
     height: 13500px;
     position: relative;
     margin: 0 auto;
@@ -61,65 +63,51 @@ body.autoplay-disabled #low-power-warning-message
     max-width: 1500px;
 }
 
-img, video, .element
+img, video, .text-element
 {
     position: absolute;
+}
+
+.text-element
+{
+    background-attachment: fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: italic;
+}
+
+.part, .one, .on-the-topic, .scroll-down
+{
+    background-image: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
 }
 
 .part
 {
     font-size: 14px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 165px;
-    left: 18%;
-    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    left: 270px;
 }
 
 .one
 {
     font-size: 100px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 100px;
-    left: 20%;
-    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    left: 300px;
 }
 
 .on-the-topic
 {
     font-size: 16px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 138px;
-    left: 2%;
-    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    left: 30px;
 }
 
 .scroll-down
 {
     font-size: 18px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 500px;
     left: 45%;
-    background: linear-gradient(0deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.00) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
 }
 
 #asia-walking
@@ -146,32 +134,12 @@ img, video, .element
     left: 1%;
 }
 
-.is-my-work
+.is-my-work, .allowed-to-be
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 1400px;
-    left: 24%;
-    background: linear-gradient(173deg, rgba(80,119,194,0.804096638655462) 0%, rgba(118,178,212,0.6407738095238095) 7%, rgba(208,233,245,0.452170868347342) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.allowed-to-be
-{
-    font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
-    top: 1400px;
-    left: 24%;
-    background: linear-gradient(173deg, rgba(80,119,194,0.804096638655462) 0%, rgba(118,178,212,0.6407738095238095) 7%, rgba(208,233,245,0.452170868347342) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    left: 360px;
+    background-image: linear-gradient(173deg, rgba(80,119,194,0.804096638655462) 0%, rgba(118,178,212,0.6407738095238095) 7%, rgba(208,233,245,0.452170868347342) 100%);
 }
 
 #beach-water-1
@@ -193,43 +161,25 @@ img, video, .element
 .a-trailing-light
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 1600px;
     left: 55%;
-    background: linear-gradient(173deg, rgba(39,66,117,.6304096638655462) 10%, rgba(118,178,212,0.787009803921569) 40%, rgba(208,203,245,0.91052170868347342) 80%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(39,66,117,.6304096638655462) 10%, rgba(118,178,212,0.787009803921569) 40%, rgba(208,203,245,0.91052170868347342) 80%);
 }
 
 .fading-into
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 2200px;
     left: 71%;
-    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.8587009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.8587009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
 }
 
 .dark
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 2900px;
     left: 90%;
-    background: linear-gradient(173deg, rgba(39,66,117,0.76234243697479) 0%, rgba(35,78,103,0.87009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(39,66,117,0.76234243697479) 0%, rgba(35,78,103,0.87009803921569) 37%, rgba(68,76,80,0.4755077030812324) 100%);
 }
 
 #moonscape-full
@@ -258,43 +208,25 @@ img, video, .element
 .a-soft-noise
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 7000px;
     left: 15%;
-    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
 }
 
 .in-the-distance
 {
     font-size: 16px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 3600px;
     left: 38%;
-    background: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(39,66,117,0.6234243697479) 0%, rgba(35,78,103,0.587009803921569) 37%, rgba(68,76,80,0.6755077030812324) 100%);
 }
 
 .with-no-source
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 5400px;
     left: 28%;
-    background: linear-gradient(0deg, rgba(52,47,48,0.7051995798319328) 6%, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.7) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(52,47,48,0.7051995798319328) 6%, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.7) 100%);
 }
 
 #leg-in-car
@@ -332,43 +264,25 @@ img, video, .element
 .the-face-of
 {
     font-size: 35px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 7520px;
     left: 8%;
-    background: linear-gradient(173deg, rgba(251,221,224,0.9724264705882353) 6%, rgba(251,231,188,0.9556197478991597) 19%, rgba(255,207,180,0.8491771708683473) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(251,221,224,0.9724264705882353) 6%, rgba(251,231,188,0.9556197478991597) 19%, rgba(255,207,180,0.8491771708683473) 100%);
 }
 
 .a-familiar
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 6400px;
     left: 39.5%;
-    background: linear-gradient(173deg, rgba(233,215,218,0.9724264705882353) 6%, rgba(228,221,203,0.9556197478991597) 43%, rgba(204,189,160,0.969625350140056) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(233,215,218,0.9724264705882353) 6%, rgba(228,221,203,0.9556197478991597) 43%, rgba(204,189,160,0.969625350140056) 100%);
 }
 
 .briefly
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 12500px;
     left: 90%;
-    background: linear-gradient(173deg, rgba(206, 212, 140, 0.972) 0%, rgba(215, 216, 134, 0.956) 5%, rgba(237,177,56,0.8491771708683473) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(206, 212, 140, 0.972) 0%, rgba(215, 216, 134, 0.956) 5%, rgba(237,177,56,0.8491771708683473) 100%);
 }
 
 #rain-car-long
@@ -382,29 +296,17 @@ img, video, .element
 .from-a-rainy
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 7490px;
     left: 5%;
-    background: linear-gradient(173deg, rgba(221,246,251,0.224264705882353) 6%, rgba(149,167,173,0.4556197478991597) 31%, rgba(100,152,161,0.8491771708683473) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(221,246,251,0.224264705882353) 6%, rgba(149,167,173,0.4556197478991597) 31%, rgba(100,152,161,0.8491771708683473) 100%);
 }
 
 .in-the-evening
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 5900px;
     left: 80%;
-    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
 }
 
 #dark-evening
@@ -426,43 +328,25 @@ img, video, .element
 .is-my-work-2
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 7800px;
     left: 5%;
-    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
 }
 
 .a-song
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 6800px;
     left: 60%;
-    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
 }
 
 .with-no-words
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 8800px;
     left: 75%;
-    background: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(70,80,101,0.542734593837535) 68%, rgba(105,169,200,.3) 100%);
 }
 
 #building-veiled
@@ -492,29 +376,17 @@ img, video, .element
 .a-gesture
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 9220px;
     left: 15%;
-    background: linear-gradient(173deg, rgba(191,199,189,0.724264705882353) 30%, rgba(97,156,84,0.9556197478991597) 100%); 
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(191,199,189,0.724264705882353) 30%, rgba(97,156,84,0.9556197478991597) 100%); 
 }
 
 .wo-explanation
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 8300px;
     left: 78%;
-    background: linear-gradient(0deg, rgba(87,94,96,0.8533788515406162) 6%, rgba(165,207,206,0.9556197478991597) 51%, rgba(150,178,204,0.4556197478991597) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(87,94,96,0.8533788515406162) 6%, rgba(165,207,206,0.9556197478991597) 51%, rgba(150,178,204,0.4556197478991597) 100%);
 }
 
 #pvd-ktchn-windows
@@ -524,7 +396,6 @@ img, video, .element
     top: 7150px;
     left: 75%;
 }
-
 
 #rice-krisp-serve
 {
@@ -545,57 +416,33 @@ img, video, .element
 .a-stack-of
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 10500px;
     left: 8%;
-    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
 }
 
 .on-a-sunday
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 11700px;
     left: 40%;
-    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
 }
 
 .just-because
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 9200px;
     left: 80%;
-    background: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(246,139,155,0.7035189075630253) 6%, rgba(236,209,176,0.9556197478991597) 32%, rgba(238,228,155,0.9612219887955182) 100%);
 }
 
 .is-my-work-3
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 7950px;
     left: 3%;
-    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(148,187,233,1) 55%, rgba(124,209,198,0.4458158263305322) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(148,187,233,1) 55%, rgba(124,209,198,0.4458158263305322) 100%);
 }
 
 #self-thesis
@@ -609,85 +456,49 @@ img, video, .element
 .vapid
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 10300px;
     left: 70%;
-    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(216,236,235,1) 0%, rgba(162,186,214,1) 55%, rgba(141,172,168,0.4458158263305322) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(216,236,235,1) 0%, rgba(162,186,214,1) 55%, rgba(141,172,168,0.4458158263305322) 100%);
 }
 
 .and-selfish
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 10790px;
     left: 70%;
-    background: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(127,170,219,1) 55%, rgba(118,168,162,0.4458158263305322) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(90deg, rgba(192,237,234,1) 0%, rgba(127,170,219,1) 55%, rgba(118,168,162,0.4458158263305322) 100%);
 }
 
 .navel
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 11280px;
     left: 70%;
-    background: linear-gradient(90deg, rgba(153,232,227,1) 0%, rgba(93,147,209,1) 46%, rgba(139,201,194,0.4458158263305322) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(90deg, rgba(153,232,227,1) 0%, rgba(93,147,209,1) 46%, rgba(139,201,194,0.4458158263305322) 100%);
 }
 
 .and-free
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 5200px;
     left: 75%;
-    background: linear-gradient(0deg, rgba(215,255,252,.9) 0%, rgba(23,109,138,.4) 49%, rgba(111,215,203,0.1458158263305322) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(0deg, rgba(215,255,252,.9) 0%, rgba(23,109,138,.4) 49%, rgba(111,215,203,0.1458158263305322) 100%);
 }
 
 .obligated
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 12900px;
     left: 10%;
-    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
 }
 
 .why-should
 {
     font-size: 30px;
-    font-family: Didot, Georgia, serif;
-    font-style: italic;
     top: 14800px;
     left: 20%;
-    background: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
-    background-attachment: fixed;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    background-image: linear-gradient(173deg, rgba(20,76,85,0.76234243697479) 0%, rgba(94,137,162,0.342734593837535) 35%, rgba(105,169,200,.90) 100%);
 }
 
 #crows
@@ -701,50 +512,19 @@ img, video, .element
 .name
 {
     font-size: 16px;
-    font-family: Didot, Georgia, serif;
     top: 15900px;
-    left: 40%;
-    background: linear-gradient(0deg, rgba(51,140,134,1) 0%, rgba(23,109,138,1) 49%, rgba(28,117,107,0.4458158263305322) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(51,140,134,1) 0%, rgba(23,109,138,1) 49%, rgba(28,117,107,0.4458158263305322) 100%);
+    text-align: center;
 }
 
 @media (max-width: 1280px)
 {
-    
-    .wrapper
-    {
-
-    }
-
-    .part
-    {
-        top: 170px;
-        left: 21%;
-    }
-
-    .one
-    {
-        top: 110px;
-        left: 23%;
-    }
-
-    .is-my-work
-    {
-        left: 30%;
-    }
-
-    .allowed-to-be
-    {
-        left: 30%;
-    }
-
     .fading-into
     {
         left: 78%;
     }
-    
+
     #moonscape-full-again
     {
         width: 400px;
@@ -752,7 +532,6 @@ img, video, .element
 
     #moonscape-cropped
     {
-
         left: 62%;
     }
 
@@ -766,7 +545,6 @@ img, video, .element
         left: 7%;
     }
 
-
     #rain-car-long
     {
         height: auto;
@@ -778,7 +556,6 @@ img, video, .element
     {
         top: 7360px;
     }
-
 
     #papers-flying
     {
@@ -809,7 +586,6 @@ img, video, .element
     {
         left: 45%;
     }
-
 
     .on-a-sunday
     {
@@ -842,25 +618,8 @@ img, video, .element
     }
 }
 
-
 @media (max-width: 1050px)
 {
-    .wrapper
-    {
-    }
-
-        .part
-    {
-        top: 170px;
-        left: 25%;
-    }
-
-    .one
-    {
-        top: 110px;
-        left: 28%;
-    }
-
     #asia-walking
     {
         left: 40%;
@@ -873,19 +632,9 @@ img, video, .element
 
     #beach-shore
     {
-        height: auto;
+        height: 590.516px;
         width: 1050px;
         left: 0%;
-    }
-    
-    .is-my-work
-    {
-        left: 34%;
-    }
-
-    .allowed-to-be
-    {
-        left: 34%;
     }
 
     #beach-water-2
@@ -895,7 +644,6 @@ img, video, .element
         left: 0%;
     }
 
-    
     #moonscape-full-again
     {
         height: auto;
@@ -905,7 +653,6 @@ img, video, .element
 
     #moonscape-cropped
     {
-
         left: 55%;
     }
 
@@ -928,29 +675,11 @@ img, video, .element
     {
         left: 18%;
     }
+
     #rain-car-2
     {
         left: 75%;
     }
-
-    .the-face-of
-    {
-        left: 7%;
-    }
-
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7360px;
-    }
-
 
     #papers-flying
     {
@@ -964,17 +693,6 @@ img, video, .element
         left: 75%;
     }
 
-    .building-veiled
-    {
-        height: auto;
-        width: 50px;
-    }
-
-    .with-no-words
-    {
-       left: 81%;
-    }
-
     .a-gesture
     {
         left: 14%;
@@ -983,18 +701,6 @@ img, video, .element
     .wo-explanation
     {
         left: 85%;
-    }
-
-    #rice-krisp-serve
-    {
-        height: auto;
-        width: 400px;
-        left: 12%;
-    }
-
-    #rice-krisp-eat
-    {
-        left: 45%;
     }
 
     .a-stack-of
@@ -1042,22 +748,6 @@ img, video, .element
 
 @media (max-width: 960px)
 {
-    .wrapper
-    {
-    }
-
-        .part
-    {
-        top: 170px;
-        left: 25%;
-    }
-
-    .one
-    {
-        top: 110px;
-        left: 28%;
-    }
-
     #asia-walking
     {
         left: 30%;
@@ -1074,100 +764,32 @@ img, video, .element
         width: 960px;
         left: 0%;
     }
-    
-    .is-my-work
-    {
-        left: 34%;
-    }
 
-    .allowed-to-be
+    #beach-water-1
     {
-        left: 34%;
+        left: 20%;
+    }
+    
+    #beach-water-2
+    {
+        height: auto;
+        width: 960px;
     }
 
     #moonscape-full
     {
         left: 15%;
     }
-
-    #beach-water-1
-    {
-        left: 20%;
-    }
-    #beach-water-2
-    {
-        height: auto;
-        width: 960px;
-        left: 0%;
-    }
-
     
     #moonscape-full-again
     {
         height: auto;
         width: 300px;
-        left: 20%;
     }
 
     #moonscape-cropped
     {
-
         left: 52%;
-    }
-
-    .a-soft-noise
-    {
-        left: 5%;
-    }
-
-    .in-the-distance
-    {
-        left: 38%;
-    }
-
-    .with-no-source
-    {
-        left: 24%;
-    }
-
-    #rain-car-1
-    {
-        left: 18%;
-    }
-    #rain-car-2
-    {
-        left: 75%;
-    }
-
-    .the-face-of
-    {
-        left: 7%;
-    }
-
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7360px;
-    }
-
-
-    #papers-flying
-    {
-        height: auto;
-        width: 700px;
-        left: 18%;
-    }
-
-    .a-song
-    {
-        left: 75%;
     }
 
     #building-veiled
@@ -1217,12 +839,6 @@ img, video, .element
         left: 45%;
     }
 
-    .a-stack-of
-    {
-        left: 5%;
-        width: 300px;
-    }
-
     .on-a-sunday
     {
         left: 55%;
@@ -1233,10 +849,10 @@ img, video, .element
         height: auto;
         width: 250px;
     }
+
     .is-my-work-3
     {
         font-size: 24px;
-        left: 1.5%;
     }
 
     #self-thesis
@@ -1244,27 +860,20 @@ img, video, .element
         height: auto;
         width: 500px;
     }
+
     .vapid
     {
         font-size: 25px;
-        left: 85%;
     }
 
     .and-selfish
     {
         font-size: 25px;
-        left: 85%;
     }
 
     .navel
     {
         font-size: 25px;
-        left: 85%;
-    }
-
-    .and-free
-    {
-        left: 70%;
     }
 
     #crows
@@ -1277,18 +886,12 @@ img, video, .element
     .name
     {
         font-size: 14px;
-        left: 37%;
     }
 }
 
 @media (max-width: 823px)
 {
-    .wrapper
-    {
-        max-height: 13350px;
-    }
-
-    .element
+    .text-element
     {
         font-size: 22px;
     }
@@ -1296,14 +899,14 @@ img, video, .element
     .part
     {
         top: 70px;
-        left: 28%;
+        left: 230px;
         font-size: 10px;
     }
 
     .one
     {
         top: 20px;
-        left: 30%;
+        left: 246px;
         font-size: 80px;
     }
 
@@ -1318,7 +921,6 @@ img, video, .element
         height: auto;
         width: 100px;
         left: 20%;
-
     }
 
     #asia-walking-2
@@ -1335,24 +937,10 @@ img, video, .element
         left: 0%;
         top: 1200px;
     }
-    
-    .is-my-work
+
+    .allowed-to-be, .is-my-work
     {
         left: 42%;
-
-    }
-    
-    .allowed-to-be
-    {
-        left: 42%;
-
-    }
-    #beach-water-2
-    {
-        height: auto;
-        width: 812px;
-        left: 0%;
-        top: 4300px;
     }
 
     #beach-water-1
@@ -1360,6 +948,14 @@ img, video, .element
         height: auto;
         width: 400px;
         left: 20%;
+    }
+
+    #beach-water-2
+    {
+        height: auto;
+        width: 812px;
+        left: 0%;
+        top: 4300px;
     }
 
     #moonscape-full
@@ -1379,8 +975,6 @@ img, video, .element
     #moonscape-cropped
     {
         width: 300px;
-        height: auto;
-        left: 52%;
     }
 
     .a-soft-noise
@@ -1409,8 +1003,8 @@ img, video, .element
     {
         height: auto;
         width: 400px;
-
     }
+
     #rain-car-2
     {
         height: auto;
@@ -1425,6 +1019,7 @@ img, video, .element
         width: 80px;
         top: 7065px;
     }
+
     .the-face-of
     {
         left: 10%;
@@ -1435,18 +1030,6 @@ img, video, .element
     {
         left: 36%;
         top: 6100px;
-    }
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7560px;
     }
 
     #dark-evening
@@ -1479,16 +1062,10 @@ img, video, .element
        top: 9000px;
     }
 
-    .a-gesture
-    {
-        left: 1%;
-    }
-
     #trees-drooping
     {
         height: auto;
         width: 450px;
-        left: 15%;
     }
 
     #falling-sculpture
@@ -1515,7 +1092,6 @@ img, video, .element
     {
         height: auto;
         width: 150px;
-        left: 45%;
     }
 
     .a-stack-of
@@ -1528,6 +1104,7 @@ img, video, .element
     {
         left: 65%;
     }
+
     .just-because
     {
         top: 9400px;
@@ -1539,9 +1116,9 @@ img, video, .element
         width: 200px;
         left: 75%;
     }
+
     .is-my-work-3
     {
-        left: 1.5%;
         width: 150px;
     }
 
@@ -1582,17 +1159,13 @@ img, video, .element
     .name
     {
         font-size: 11px;
-        left: 40%;
     }
 
 }
+
 @media (max-width: 768px)
 {
-    .wrapper
-    {
-    }
-
-    .element
+    .text-element
     {
         font-size: 24px;
     }
@@ -1600,14 +1173,14 @@ img, video, .element
     .part
     {
         top: 170px;
-        left: 32%;
+        left: 245px;
         font-size: 14px;
     }
 
     .one
     {
         top: 110px;
-        left: 35%;
+        left: 268px;
         font-size: 100px;
     }
 
@@ -1632,24 +1205,6 @@ img, video, .element
         width: 768px;
         left: 0%;
     }
-    
-    .is-my-work
-    {
-        left: 42%;
-
-    }
-    
-    .allowed-to-be
-    {
-        left: 42%;
-
-    }
-    #beach-water-2
-    {
-        height: auto;
-        width: 768px;
-        left: 0%;
-    }
 
     #beach-water-1
     {
@@ -1658,9 +1213,11 @@ img, video, .element
         left: 20%;
     }
 
-    #moonscape-full
+    #beach-water-2
     {
-        left: 5%;
+        height: auto;
+        width: 768px;
+        left: 0%;
     }
 
     #moonscape-full-again
@@ -1677,61 +1234,15 @@ img, video, .element
         left: 55%;
     }
 
-    .a-soft-noise
-    {
-        left: 1%;
-    }
-
-    .in-the-distance
-    {
-        font-size: 14px;
-        left: 35%;
-    }
-
-    .with-no-source
-    {
-        left: 30%;
-    }
-
     #rain-car-1
     {
         left: 5%;
     }
 
-    #leg-in-car
-    {
-        height: auto;
-        width: 400px;
-
-    }
     #rain-car-2
     {
         height: auto;
         width: 180px;
-        left: 70%;
-    }
-
-    .the-face-of
-    {
-        left: 10%;
-    }
-
-    .a-familiar
-    {
-        left: 36%;
-    }
-
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7360px;
     }
 
     #dark-evening
@@ -1753,8 +1264,6 @@ img, video, .element
 
     #building-veiled
     {
-        height: auto;
-        width: 150px;
         left: 4%;
     }
 
@@ -1784,14 +1293,11 @@ img, video, .element
 
     .wo-explanation
     {
-        left: 70%;
         top: 8400px;
     }
 
     #rice-krisp-serve
     {
-        height: auto;
-        width: 350px;
         left: 12%;
     }
 
@@ -1802,34 +1308,18 @@ img, video, .element
         left: 50%;
     }
 
-    .a-stack-of
-    {
-        left: 5%;
-        width: 200px;
-    }
-
     .on-a-sunday
     {
         left: 59%;
     }
 
-    #pvd-ktchn-windows
-    {
-        height: auto;
-        width: 200px;
-        left: 75%;
-    }
     .is-my-work-3
     {
         font-size: 22px;
-        left: 1.5%;
-        width: 150px;
     }
 
     #self-thesis
     {
-        height: auto;
-        width: 400px;
         left: 27%;
     }
 
@@ -1853,39 +1343,29 @@ img, video, .element
         left: 70%;
     }
 
-    #crows
-    {
-        left: 10%;
-    }
-
     .name
     {
         font-size: 12px;
-        left: 35%;
     }
+}
 
 @media (max-width: 667px)
 {
-    .wrapper
-    {
-    }
-
-    .element
+    .text-element
     {
         font-size: 18px;
     }
 
     .part
     {
-
-        left: 33%;
+        left: 220px;
         font-size: 10px;
         top: 50px;
     }
 
     .one
     {
-        left: 36%;
+        left: 240px;
         font-size: 80px;
         top: 5px;
     }
@@ -1916,31 +1396,20 @@ img, video, .element
         width: 667px;
         left: 0%;
     }
-    
-    .is-my-work
-    {
-        left: 42%;
-
-    }
-    
-    .allowed-to-be
-    {
-        left: 42%;
-
-    }
-    #beach-water-2
-    {
-        height: auto;
-        width: 600px;
-        left: 0%;
-        top: 4100px;
-    }
 
     #beach-water-1
     {
         height: auto;
         width: 400px;
         left: 20%;
+    }
+
+    #beach-water-2
+    {
+        height: auto;
+        width: 600px;
+        left: 0%;
+        top: 4100px;
     }
 
     .a-trailing-light
@@ -1990,46 +1459,6 @@ img, video, .element
         left: 0%;
     }
 
-    #leg-in-car
-    {
-        height: auto;
-        width: 400px;
-
-    }
-    #rain-car-2
-    {
-        height: auto;
-        width: 140px;
-        left: 70%;
-    }
-
-    #self-car
-    {
-        height: auto;
-        width: 80px;
-    }
-    .the-face-of
-    {
-        left: 10%;
-    }
-
-    .a-familiar
-    {
-        left: 36%;
-    }
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7360px;
-    }
-
     #dark-evening
     {
         left: 52%;
@@ -2045,13 +1474,6 @@ img, video, .element
     .a-song
     {
         left: 80%;
-    }
-
-    #building-veiled
-    {
-        height: auto;
-        width: 100px;
-        left: 4%;
     }
 
     .with-no-words
@@ -2081,7 +1503,6 @@ img, video, .element
 
     .wo-explanation
     {
-        left: 70%;
         top: 8500px;
     }
 
@@ -2115,11 +1536,6 @@ img, video, .element
         height: auto;
         width: 160px;
         left: 75%;
-    }
-    .is-my-work-3
-    {
-        left: 1.5%;
-        width: 150px;
     }
 
     #self-thesis
@@ -2159,20 +1575,12 @@ img, video, .element
     .name
     {
         font-size: 11px;
-        left: 35%;
     }
-
-}
-
 }
 
 @media (max-width: 600px)
 {
-    .wrapper
-    {
-    }
-
-    .element
+    .text-element
     {
         font-size: 20px;
     }
@@ -2180,14 +1588,14 @@ img, video, .element
     .part
     {
         top: 170px;
-        left: 33%;
+        left: 198px;
         font-size: 10px;
     }
 
     .one
     {
         top: 120px;
-        left: 36%;
+        left: 216px;
         font-size: 80px;
     }
 
@@ -2216,18 +1624,7 @@ img, video, .element
         width: 600px;
         left: 0%;
     }
-    
-    .is-my-work
-    {
-        left: 42%;
 
-    }
-    
-    .allowed-to-be
-    {
-        left: 42%;
-
-    }
     #beach-water-2
     {
         height: auto;
@@ -2243,54 +1640,11 @@ img, video, .element
         left: 20%;
     }
 
-    #moonscape-full
-    {
-        height: auto;
-        width: 80px;
-        left: 5%;
-    }
-
-    #moonscape-full-again
-    {
-        height: auto;
-        width: 200px;
-        left: 18%;
-    }
-
-    #moonscape-cropped
-    {
-        width: 300px;
-        height: auto;
-        left: 52%;
-    }
-
-    .a-soft-noise
-    {
-        left: 1%;
-    }
-
     .in-the-distance
     {
         font-size: 14px;
-        left: 35%;
     }
 
-    .with-no-source
-    {
-        left: 30%;
-    }
-
-    #rain-car-1
-    {
-        left: 0%;
-    }
-
-    #leg-in-car
-    {
-        height: auto;
-        width: 400px;
-
-    }
     #rain-car-2
     {
         height: auto;
@@ -2303,101 +1657,15 @@ img, video, .element
         height: auto;
         width: 80px;
     }
-    .the-face-of
-    {
-        left: 10%;
-    }
-
-    .a-familiar
-    {
-        left: 36%;
-    }
-
-    #rain-car-long
-    {
-        height: auto;
-        width: 1280px;
-        left: 0%;
-    }
-
-    .from-a-rainy
-    {
-        top: 7360px;
-    }
-
-    #dark-evening
-    {
-        left: 52%;
-    }
-
-    #papers-flying
-    {
-        height: auto;
-        width: 500px;
-        left: 12%;
-    }
-
-    .a-song
-    {
-        left: 80%;
-    }
-
-    #building-veiled
-    {
-        height: auto;
-        width: 100px;
-        left: 4%;
-    }
-
-    .with-no-words
-    {
-       left: 80%;
-       top: 9000px;
-    }
 
     .a-gesture
     {
         left: 1%;
     }
 
-    #trees-drooping
-    {
-        height: auto;
-        width: 450px;
-        left: 15%;
-    }
-
-    #falling-sculpture
-    {
-        height: auto;
-        width: 200px;
-        left: 65%;
-    }
-
     .wo-explanation
     {
-        left: 70%;
         top: 8400px;
-    }
-
-    #rice-krisp-serve
-    {
-        height: auto;
-        width: 350px;
-        left: 5%;
-    }
-
-    #rice-krisp-eat
-    {
-        height: auto;
-        width: 150px;
-        left: 45%;
-    }
-
-    .a-stack-of
-    {
-        left: 5%;
-        width: 200px;
     }
 
     .on-a-sunday
@@ -2405,38 +1673,11 @@ img, video, .element
         left: 65%;
     }
 
-    #pvd-ktchn-windows
-    {
-        height: auto;
-        width: 160px;
-        left: 75%;
-    }
-    .is-my-work-3
-    {
-        left: 1.5%;
-        width: 150px;
-    }
-
     #self-thesis
     {
         height: auto;
         width: 360px;
         left: 21%;
-    }
-
-    .vapid
-    {
-        left: 83%;
-    }
-
-    .and-selfish
-    {
-        left: 83%;
-    }
-
-    .navel
-    {
-        left: 83%;
     }
 
     .and-free
@@ -2450,17 +1691,180 @@ img, video, .element
         width: 500px;
         left: 10%;
     }
+}
 
-    .name
+@media (max-width: 590px)
+{
+    .wrapper
     {
-        font-size: 11px;
-        left: 32%;
+        z-index: 0;
     }
 
+    .part
+    {
+        top: 60px;
+        left: 30px;
+    }
+
+    .one
+    {
+        top: 10px;
+        left: 48px;
+    }
+
+    .on-the-topic
+    {
+        top: 120px;
+        left: 216px;
+    }
+
+    .a-trailing-light
+    {
+        left: auto;
+        right: 160px;
+    }
+
+    .fading-into
+    {
+        left: auto;
+        right: 20px;
+    }
+
+    .dark
+    {
+        left: auto;
+        right: 0;
+    }
+
+    .with-no-source
+    {
+        left: 18%;
+    }
+    
+    .briefly
+    {
+        left: auto;
+        right: 0;
+        top: 12600px;
+        z-index: -1;
+    }
+
+    .in-the-evening
+    {
+        left: auto;
+        right: 10px;
+    }
+
+    #dark-evening
+    {
+        left: auto;
+        right: 160px;
+    }
+
+    #falling-sculpture
+    {
+        left: auto;
+        right: 0;
+    }
+
+    .wo-explanation
+    {
+        left: auto;
+        right: 20px;
+    }
+
+    #rice-krisp-serve
+    {
+        width: 300px;
+    }
+
+    .is-my-work-3
+    {
+        left: 50px;
+        font-size: 22px;
+        top: 7650px;
+    }
+
+    #self-thesis
+    {
+        left: 20px;
+    }
+
+    .vapid, .and-selfish, .navel
+    {
+        font-size: 22px;
+        left: 410px;
+    }
 }
 
+@media (max-width: 520px)
+{
+    .on-a-sunday
+    {
+        left: 15%;
+        top: 12000px
+    }
+
+    .just-because
+    {
+        left: auto;
+        right: 0;
+        width: 80px;
+    }
+
+    #self-thesis
+    {
+        width: 300px;
+    }
+
+    .vapid, .and-selfish, .navel
+    {
+        left: 340px;
+    }
 }
 
+@media (max-width: 400px)
+{
+    .on-the-topic
+    {
+        left: 100px;
+    }
 
+    .a-familiar
+    {
+        left: 30%;
+    }
 
-*/
+    .a-song
+    {
+        left: auto;
+        right: 15px;
+    }
+
+    .with-no-words
+    {
+        left: auto;
+        right: 15px;
+    }
+
+    .vapid, .and-selfish, .navel
+    {
+        left: auto;
+        right: 20px;
+    }
+
+    .vapid
+    {
+        top: 10650px;
+    }
+
+    .and-selfish
+    {
+        top: 11140px;
+    }
+
+    .navel
+    {
+        top: 11630px;
+    }
+}
